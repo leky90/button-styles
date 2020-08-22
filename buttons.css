@@ -1,0 +1,38 @@
+.arrow-button {
+    background-color: orange;
+    color: #fff;
+    padding: 15px 50px 15px 20px;
+    border-radius: 35px;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    transition: padding 0.3s;
+}
+
+.arrow-button__arrow-icon {
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    padding: 8px;
+    border: 3px solid orange;
+    box-sizing: border-box;
+    border-radius: 22.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: width 0.3s;
+}
+
+.arrow-button:hover {
+    padding: 15px 20px 15px 50px;
+}
+
+.arrow-button:hover .arrow-button__arrow-icon {
+    display: block;
+    width: 100%;
+    padding: 8px 15px;
+    text-align: left;
+}
